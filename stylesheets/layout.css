@@ -1,0 +1,359 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+body {
+	background-color: #272822;
+}
+
+.color1 {
+	background-color: #A3BF27;
+}
+
+.color2 {
+	background-color: #AA9DCB;
+}
+
+.color3 {
+	background-color: #FEE447;
+}
+
+.color4 {
+	background-color: #586D5C;
+}
+
+.color5 {
+	background-color: #A3BF27;
+}
+
+.color6 {
+	background-color: #64767A;
+}
+
+.color7 {
+	background-color: #A3BF27;
+}
+
+.color7 {
+	background-color: #FF222B;
+}
+
+.color8 {
+	background-color: #746733;
+}
+
+.color9 {
+	background-color: #FEF452;
+}
+
+.color10 {
+	background-color: #0D1019;
+}
+
+.color11 {
+	background-color: #B6C791;
+}
+
+.color12 {
+	background-color: #7AD0E2;
+}
+
+.color13 {
+	background-color: #1B2D40;
+}
+
+.color14 {
+	background-color: #A3BF27;
+}
+
+.color15 {
+	background-color: #FA9A67;
+}
+
+.color16 {
+	background-color: #FF9C36;
+}
+
+.color17 {
+	background-color: #BEFE7F;
+}
+
+.color18 {
+	background-color: #3D31F4;
+}
+
+.color19 {
+	background-color: #D1FFEE;
+}
+
+.color20 {
+	background-color: #3F3B0D;
+}
+
+.color20 {
+	background-color: #CD23F5;
+}
+
+.color21 {
+	background-color: #D7551F;
+}
+
+.color22 {
+	background-color: #C24045;
+}
+
+.color23 {
+	background-color: #C6FFF5;
+}
+
+.color23 {
+	background-color: #2428B6;
+}
+
+.color24 {
+	background-color: #E4FC82;
+}
+
+.color25 {
+	background-color: #91276B;
+}
+
+.color26 {
+	background-color: #776C24;
+}
+
+.color27 {
+	background-color: #90FE79;
+}
+
+.color28 {
+	background-color: #692724;
+}
+
+.color29 {
+	background-color: #F9276C;
+}
+
+.color30 {
+	background-color: #7F74F6;
+}
+
+.color30 {
+	background-color: #4A572F;
+}
+
+.color31 {
+	background-color: #5E5B40;
+}
+
+.color32 {
+	background-color: #4990C8;
+}
+
+.color33 {
+	background-color: #E4E4E4;
+}
+
+.cell {
+	height: 30px;
+	margin-top: 10px;
+}
+
+.cell_large {
+
+	height: 400px;
+	margin-top: 10px;
+/*	background-color: #A0BF27;*/
+background: #FF0030 url('../images/GA_logo3.jpg') no-repeat bottom right;
+
+}
+
+
+/*.container {
+    margin-top: 50px;
+}*/
+
+#nav {
+    margin: 20px 0 0 0;
+}
+
+#nav ul li {
+    display: inline;
+    margin: 0 20px 0 0;
+    margin-bottom: 130px;
+}
+
+#nav a {
+    text-decoration: none;
+}
+
+#nav a:hover {
+    text-decoration: underline;
+}
+
+#headerImage img {
+    margin-bottom: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+#paragraph {
+    margin-bottom: 20px;
+}
+
+.feature img {
+    margin-bottom: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		#row {
+			display: none;
+		}
+		#row2 {
+			display: none;
+		}
+		#row3 {
+			display: none;
+		}
+		#row4 {
+			display: none;
+		}
+		#row5 {
+			display: none;
+		}
+		#row6 {
+			display: none;
+		}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
+
+.cell_large h1 {
+	color: #fff;
+	font-size: 70px;
+	letter-spacing: 20px;
+	line-height: 60px;
+	margin-top: 25px;
+}
+
+.cell_large h2 {
+	color: #fff;
+	font-size: 40px;
+	letter-spacing: 10px;
+	line-height: 10px;
+	margin-top: 35px;
+
+}
+
+.extra_margin {
+	margin-top: 10px;
+}
+
+/*.logo {
+
+	width: 100%;
+	height: 100%;
+
+}*/
+
+p {
+	margin-left: 12px;
+	font-size: 16px;
+}
+
+h2 {
+	margin-top: 10px;
+	margin-left: 12px;
+}
+
+h4 {
+/*	margin-top: 12px;*/
+}
+
+.student-mugs {
+	height: 600px;
+	/*margin-top: 12px;*/
+}
+
+.projects-section {
+	height: 410px;
+}
+
+h4 {
+	color: white;
+/*	text-transform: uppercase;*/
+	margin-top: -18px;
+	padding-left: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+}
+
+h4.alt_color {
+	color: #B6C791;
+}
+
+h4.alt_color2 {
+	color: #7AD0E2;
+}
+
+.group_pic {
+	background: url('../images/group.png') no-repeat bottom right;
+}
+
+a:hover > h4{
+	color: #A6E22D;
+	background-color: black;
+	text-decoration: none;
+}
