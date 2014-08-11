@@ -173,6 +173,8 @@ body {
 	margin-top: 10px;
 }
 
+/* large red banner */
+
 .cell_large {
 
 	height: 400px;
@@ -318,13 +320,15 @@ h2 {
 	margin-left: 12px;
 }
 
-h4 {
-/*	margin-top: 12px;*/
-}
+/* class photos section */
 
 .student-mugs {
-	height: 600px;
+/*	height: 300px;*/
 	/*margin-top: 12px;*/
+}
+
+.class-photo {
+	padding-left: 20px;
 }
 
 .projects-section {
@@ -334,7 +338,7 @@ h4 {
 h4 {
 	color: white;
 /*	text-transform: uppercase;*/
-	margin-top: -18px;
+	margin-top: -15px;
 	padding-left: 20px;
 	font-family: 'Oswald', sans-serif;
 	font-size: 16px;
@@ -348,12 +352,13 @@ h4.alt_color2 {
 	color: #7AD0E2;
 }
 
-.group_pic {
-	background: url('../images/group.png') no-repeat bottom right;
-}
 
 a:hover > h4{
 	color: #A6E22D;
 	background-color: black;
 	text-decoration: none;
+}
+
+.footer {
+	padding: 20px 0 20px 0;
 }
