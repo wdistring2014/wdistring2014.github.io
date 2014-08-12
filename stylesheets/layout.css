@@ -173,17 +173,6 @@ body {
 	margin-top: 10px;
 }
 
-/* large red banner */
-
-.cell_large {
-
-	height: 400px;
-	margin-top: 10px;
-/*	background-color: #A0BF27;*/
-background: #FF0030 url('../images/GA_logo3.jpg') no-repeat bottom right;
-
-}
-
 
 /*.container {
     margin-top: 50px;
@@ -204,7 +193,7 @@ background: #FF0030 url('../images/GA_logo3.jpg') no-repeat bottom right;
 }
 
 #nav a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 #headerImage img {
@@ -281,6 +270,14 @@ background: #FF0030 url('../images/GA_logo3.jpg') no-repeat bottom right;
 	    font-weight: normal;
 	    font-style: normal; }
 */
+/* large red banner */
+
+.cell_large {
+
+	height: 400px;
+	margin-top: 10px;
+	background: #FF0030 url('../images/GA_logo3.jpg') no-repeat bottom right;
+}
 
 .cell_large h1 {
 	color: #fff;
@@ -299,16 +296,12 @@ background: #FF0030 url('../images/GA_logo3.jpg') no-repeat bottom right;
 
 }
 
+/* general styles */
+
 .extra_margin {
 	margin-top: 10px;
 }
 
-/*.logo {
-
-	width: 100%;
-	height: 100%;
-
-}*/
 
 p {
 	margin-left: 12px;
@@ -320,24 +313,14 @@ h2 {
 	margin-left: 12px;
 }
 
-/* class photos section */
+/* student names list */
 
-.student-mugs {
-/*	height: 300px;*/
-	/*margin-top: 12px;*/
-}
-
-.class-photo {
-	padding-left: 20px;
-}
-
-.projects-section {
-	height: 410px;
+a {
+	text-decoration: none;
 }
 
 h4 {
 	color: white;
-/*	text-transform: uppercase;*/
 	margin-top: -15px;
 	padding-left: 20px;
 	font-family: 'Oswald', sans-serif;
@@ -355,10 +338,78 @@ h4.alt_color2 {
 
 a:hover > h4{
 	color: #A6E22D;
-	background-color: black;
-	text-decoration: none;
+	background-color: none;
+	text-transform: uppercase;
+}
+
+/* class photos section */
+
+.class-photo {
+	margin-left: 5px;
+}
+
+.student-area {
+	background-color: #fff;
+	height: 410px;
+
+}
+
+.student-name > h1 {
+		padding: 20px 0 0 0;
+		color: #7AD0E2;
+}
+
+.student-website {
+	padding-left: 3px;
+	margin-top: -45px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.student-website > a {
+	color: #7AD0E2;
+}
+
+.student-website > a:hover {
+	color: #D7551F;
+}
+
+/* email github twitter linked in */
+
+.contact a {
+	padding: 5px 14px 5px 10px;
+	margin-top: 10px;
+	color: #A3BF27;
+	background-color: #E4E4E4;
+}
+
+.contact a:hover {
+	color: #D7551F;
+}
+
+.student-bio {
+		padding: 5px 8px 0 0;
+		color: #A3BF27;
+		clear: right;
+}
+
+a:hover > h5 {
+		color: #A3BF27;
+}
+
+.student-text > h3 {
+		padding-right: 5px;
+		color: #A3BF27;
+}
+
+
+/* projects section */
+
+.projects-section {
+	height: 410px;
 }
 
 .footer {
 	padding: 20px 0 20px 0;
+	color: #776C24;
 }
