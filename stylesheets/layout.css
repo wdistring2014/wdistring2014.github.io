@@ -406,8 +406,31 @@ a:hover > h5 {
 /* projects section */
 
 .projects-section {
-	height: 410px;
+	/*height: 410px;*/
 }
+
+.move-left {
+	padding-left: 10px;
+}
+
+.app-image {
+	width: 280px;
+	float: left;
+}
+
+.projects-section > div > div > h3 {
+	margin-top: 1px;
+	padding-left: 0px;
+	color: #D7551F
+}
+
+.projects-section > div > div > p {
+	font-size: 1em;
+	margin-top: -5px;
+}
+
+
+
 
 .footer {
 	padding: 20px 0 20px 0;
