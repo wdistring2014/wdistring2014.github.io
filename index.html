@@ -24,9 +24,16 @@
     <link rel="stylesheet" href="stylesheets/animations.css">
 
     <!-- JAVASCRIPT -->
-    <script src="javascript/library/underscore.js"></script>
-    <script src="javascript/library/jquery.js"></script>
-    <script src="javascript/library/backbone.js"></script>
+    <script type="text/javascript" src="javascript/library/underscore.js"></script>
+    <script type="text/javascript" src="javascript/library/jquery.js"></script>
+    <script type="text/javascript" src="javascript/library/backbone.js"></script>
+    <script type="text/javascript" src="javascript/allStudents.js"></script>
+
+    <!-- BACKBONE -->
+    <script type="text/javascript" src="javascript/backbone/models/Student.js"></script>
+    <script type="text/javascript" src="javascript/backbone/views/StudentView.js"></script>
+    <script type="text/javascript" src="javascript/backbone/views/StudentListView.js"></script>
+    <script type="text/javascript" src="javascript/backbone/collections/StudentCollection.js"></script>
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -44,14 +51,10 @@
 </head>
 <body>
 
-
-
 	<!-- Primary Page Layout
 	================================================== -->
 
-
     <div class="container"> <!-- overall container -->
-
 
             <div id="row" class ="container slideLeft row-of-cells"> <!-- 1st row of colored cells -->
                 <div class="one column color6 cell pullDown row-of-cells"></div>
