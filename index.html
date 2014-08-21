@@ -29,11 +29,16 @@
     <script type="text/javascript" src="javascript/library/backbone.js"></script>
     <script type="text/javascript" src="javascript/allStudents.js"></script>
 
+    <!-- TEMPLATE -->
+    <script type="text/template" id="studentTemplate">
+        <h4><%= name %></h4>
+    </script>
+
     <!-- BACKBONE -->
     <script type="text/javascript" src="javascript/backbone/models/Student.js"></script>
     <script type="text/javascript" src="javascript/backbone/views/StudentView.js"></script>
     <script type="text/javascript" src="javascript/backbone/views/StudentListView.js"></script>
-    <script type="text/javascript" src="javascript/backbone/collections/StudentCollection.js"></script>
+    <script type="text/javascript" src="javascript/backbone/collections/StudentsCollection.js"></script>
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -318,9 +323,6 @@
 
 
     </div>
-
-
-
 
 
 <!-- footer section -->
