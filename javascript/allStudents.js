@@ -126,30 +126,3 @@ var stringObjects = [
    email: 'mrwilsondj@gmail.com',
    image: 'images/string/cropped/wilson.jpg'},
 ]
-
-//Create the student collection
-
-var studentCollection;
-var studentListView;
-
-function initializeApp(){
-
-  stringObjects = stringObjects.sort(function(a, b){
-    return a.name.localeCompare(b.name);
-  })
-
-  studentCollection = new StudentCollection();
-  _.each(stringObjects, function(model){
-    var studentModel = new Student(model);
-    studentCollection.add(studentModel);
-  })
-  studentListView = new StudentListView({collection: studentCollection, el: $('.thumbnails')});
-
-  var randomStudent = _.sample(studentCollection.models);
-  var randomStudentView = new StudentView({model: randomStudent});
-  randomStudentView.renderStudentDesc();
-}
-
-$(function(){
-  initializeApp();
-})
