@@ -421,7 +421,6 @@ a:hover > h5 {
 .projects-section > div > div > h3 {
 	margin-top: 1px;
 	padding-left: 0px;
-	color: #D7551F
 }
 
 .projects-section > div > div > p {
@@ -429,6 +428,13 @@ a:hover > h5 {
 	margin-top: -5px;
 }
 
+.projects-section > div > div > h3 > a:hover {
+	color: #272822;
+}
+
+.projects-section > div > div > h3 > a {
+	color: #D7551F;
+}
 
 
 
