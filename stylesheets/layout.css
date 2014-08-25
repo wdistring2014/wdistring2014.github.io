@@ -486,3 +486,7 @@ a:hover > h5 {
 	padding: 20px 0 20px 0;
 	color: #776C24;
 }
+
+.footer > h4 > a:hover {
+	color: #D7551F;
+}
