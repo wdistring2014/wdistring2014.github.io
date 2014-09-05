@@ -343,6 +343,10 @@ div.sixteen.columns.color33.projects-section > div:nth-child(4) > div:nth-child(
 	width: 200px;
 }
 
+div.sixteen.columns.color33.projects-section > div > div > p > a:hover {
+	color: #D7551F;
+}
+
 
 
 .footer {
