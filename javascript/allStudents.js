@@ -43,7 +43,7 @@ var stringObjects = [
    image: 'images/string/cropped/david.jpg'},
   {name: 'Declan Van Welie',
    intro: "I studied illustration at RISD, and later earned a master`s in art direction at BU. Helping buold MSLO`s ipad editions inspired me to develop the tools I needed to make my design work interactive and innovative ",
-   portfolio: 'http://www.decclanvanwelie.com',
+   portfolio: 'http://declanv.github.io/',
    github: 'https://github.com/declanv',
    twitter: '',
    email: 'declanv@gmail.com',
