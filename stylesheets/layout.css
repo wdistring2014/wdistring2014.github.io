@@ -218,7 +218,6 @@ p {
 
 h2 {
 	margin-top: 10px;
-	margin-left: 12px;
 }
 
 /* student names list */
@@ -253,7 +252,7 @@ a:hover > h4{
 /* class photos section */
 
 .class-photo {
-	margin-left: 5px;
+/*	margin-left: 5px;*/
 }
 
 .student-area {
@@ -493,44 +492,64 @@ div.sixteen.columns.color33.projects-section > div:nth-child(4) > div:nth-child(
 		div.sixteen.columns.cell_large.stretchRight > h1 {
 			letter-spacing: 2px;
 			margin-top: 10px
+		}
 
+		.extra_margin {
+			margin-top: 0px;
 		}
 
 		div.four.columns.extra_margin {
 			width: 140px;
 			margin-left: -140px;
-			font-size: 11px;
 		}
 
 		div.four.columns.extra_margin > h3 {
-			font-size: 13px;
+			font-size: 18px;
 			margin-bottom: 0px;
 		}
 
 		div.four.columns.extra_margin > ul > li > a > h4 {
 			font-size: 12px;
-			line-height: 22px;
+			line-height: 25px;
 		}
 
-
+		.container .twelve.columns {
+			width: 550px;
+			margin: 12px;
+		}
 
 		div.twelve.columns > h2 {
+			margin-left: 0px;
 			font-size: 25px;
 			line-height: 35px;
 		}
 
 		div.twelve.columns > h3 {
+			margin-left: 0px;
 			font-size: 20px;
 		}
 
 		div.twelve.columns > h2, h3 {
-			margin-left: 25px;
-			width: 520px;
+		/*	width: 520px;*/
 		}
 
 		div.twelve.columns img {
 			width: 540px;
-			margin-left: 20px;
+			margin-left: 0px;
+		}
+
+		.container .sixteen.columns {
+			width: 700px;
+			margin-left: -140px;
+		}
+
+		div.sixteen.columns.color33.projects-section > div > div {
+			width: 205px;
+			margin-right: 15px;
+		}
+
+		.footer > h4 {
+		font-size: 12px;
 		}
 
 
@@ -539,16 +558,80 @@ div.sixteen.columns.color33.projects-section > div:nth-child(4) > div:nth-child(
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 
-
-
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
 
+		.cell_large {
+			height: 180px;
+			background-size: 17%;
+		}
+
+		.cell_large h2 {
+			font-size: 16px;
+			line-height: 5px;
+			margin-left: -30px;
+		}
+
 		div.sixteen.columns.cell_large {
 			width: 320px;
-			margin-left: -10px;
+			margin-left: 0px;
+		}
+
+		div.sixteen.columns.cell_large.stretchRight > h2, h1 {
+		margin-left: 20px;
+		}
+
+		div.sixteen.columns.cell_large.stretchRight > h2 {
+		font-size: 20px;
+		letter-spacing: 5px;
+		}
+
+		div.sixteen.columns.cell_large.stretchRight > h1 {
+		font-size: 25px;
+		letter-spacing: 10px;
+		line-height: 25px;
+		margin-top: 15px;
+  	}
+
+  	.four.columns {
+  		display: none;
+  	}
+
+  	.container .twelve.columns {
+			width: 300px;
+		}
+
+		div.twelve.columns > h2 {
+			margin-left: 0px;
+			font-size: 20px;
+			line-height: 25px;
+		}
+
+		div.twelve.columns > h3 {
+			margin-left: 0px;
+			font-size: 17px;
+			line-height: 22px;
+		}
+
+		div.twelve.columns img {
+			width: 319px;
+			margin-left: -10px
+		}
+
+		.container .sixteen.columns {
+			width: 320px;
+			margin-left: 0px;
+		}
+
+		div.sixteen.columns.color33.projects-section > div:nth-child(1) > div:nth-child(1) > a > img{
+			margin-top: 10px;
+		}
+
+		div.sixteen.columns.color33.projects-section > div.row.extra_margin  img {
+			margin-right: 5px;
+			width: 300px;
 		}
 
 
