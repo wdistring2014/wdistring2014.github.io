@@ -566,10 +566,8 @@ div.sixteen.columns.color33.projects-section > div > div > p > a:hover {
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
-/*
-		.container {
-			margin-left: 20px;
-		}*/
+
+
 
 		.cell_large {
 			height: 180px;
@@ -630,7 +628,11 @@ div.sixteen.columns.color33.projects-section > div > div > p > a:hover {
 
 		.container .sixteen.columns {
 			width: 320px;
-			margin-left: 0px;
+			margin-left: -37px;
+		}
+
+		.meet-students > h2 {
+			font-size: 25px;
 		}
 
 		div.sixteen.columns.color33.projects-section > div:nth-child(1) > div:nth-child(1) > a > img{
@@ -640,6 +642,10 @@ div.sixteen.columns.color33.projects-section > div > div > p > a:hover {
 		div.sixteen.columns.color33.projects-section > div.row.extra_margin  img {
 			margin-right: 5px;
 			width: 300px;
+		}
+
+		.container {
+			margin-left: 40px;
 		}
 
 
