@@ -243,7 +243,7 @@ h4.alt_color2 {
 }
 
 
-a:hover > h4{
+a:hover > h4 {
 	color: #A6E22D;
 	background-color: none;
 	text-transform: uppercase;
@@ -566,10 +566,14 @@ div.sixteen.columns.color33.projects-section > div > div > p > a:hover {
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
+/*
+		.container {
+			margin-left: 20px;
+		}*/
 
 		.cell_large {
 			height: 180px;
-			background-size: 17%;
+/*			background-size: 17%;*/
 		}
 
 		.cell_large h2 {
